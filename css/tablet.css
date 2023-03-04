@@ -1,0 +1,229 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* ----------HEADER------------ */
+
+  .navigation-logo {
+    margin-right: 123px;
+  }
+
+  .navigation-list {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
+  }
+
+  .navigation-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .navigation-link.current {
+    position: relative;
+    color: var(--hover-link-color);
+  }
+
+  .navigation-link.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+
+    background-color: var(--hover-background-color);
+    border-radius: 2px;
+  }
+
+  .contacts-list-wrap {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 10px;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .contacts-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: var(--second-text-color);
+  }
+
+  /* ----------MOBILE MENU------------ */
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: none;
+  }
+
+  /* -----------HERO----------- */
+
+  .hero.section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tablet.jpg);
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    .hero.section {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero.section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tablet@2x.jpg);
+    }
+  }
+
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+  }
+
+  /* -----------PREFERENCES----------- */
+
+  .preferences-list {
+    row-gap: 72px;
+    column-gap: var(--card-set-gap);
+  }
+
+  .preferences-item {
+    width: calc((100% - var(--card-set-gap)) / 2);
+  }
+
+  .preferences-subtitle {
+    text-align: start;
+  }
+
+  /* -----------TEAM----------- */
+
+  .team.section {
+    padding-bottom: 104px;
+  }
+
+  .team > .container {
+    width: 582px;
+  }
+
+  .team-list {
+    row-gap: 64px;
+    column-gap: var(--card-set-gap);
+  }
+
+  .team-list > .item {
+    width: calc((100% - var(--card-set-gap)) / 2);
+  }
+
+  /* ----------CUSTOMERS--------- */
+
+  .customers > .container {
+    width: 582px;
+  }
+
+  .customers-list {
+    row-gap: 72px;
+    column-gap: var(--card-set-gap);
+  }
+
+  .customers-item {
+    width: calc((100% - 2 * var(--card-set-gap)) / 3);
+  }
+
+  /* -----------FOOTER----------- */
+
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 108px;
+  }
+
+  .footer-wrap {
+    justify-content: start;
+  }
+  .footer-logo-media-wrap {
+    gap: var(--card-set-gap);
+  }
+
+  .footer-text {
+    width: 264px;
+  }
+
+  /* -----------FOOTER FORM----------- */
+
+  .footer-form-wrapper {
+    justify-content: start;
+    gap: var(--card-set-gap);
+  }
+
+  .footer-form-subtitle {
+    text-align: start;
+  }
+
+  .footer-field {
+    width: 264px;
+  }
+
+  /* -----------MODAL WINDOW----------- */
+
+  .modal {
+    width: 408px;
+    padding: 24px;
+    padding-top: 72px;
+  }
+
+  /* -----------PORTFOLIO----------- */
+
+.portfolio > .container {
+  max-width: 768px;
+}
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .filter-list {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    justify-content: center;
+    width: 586px;
+  }
+
+  .filter-list .btn {
+    padding: 12px 22px;
+    height: 48px;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    column-gap: var(--card-set-gap);
+    row-gap: 72px;
+  }
+
+  .portfolio-list > .item {
+    flex-basis: calc((100% - var(--card-set-gap)) / 2);
+  }
+}

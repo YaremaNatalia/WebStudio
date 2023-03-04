@@ -1,0 +1,44 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+
+  /* ----------MOBILE MENU------------ */
+  @media screen and (min-width: 480px) and (max-width: 767.98px) {
+    .mobile-menu-container {
+      max-width: 428px;
+    }
+    .mobile-menu-soc-list {
+      gap: 56px;
+    }
+
+    /* -----------HERO----------- */
+
+    .hero.section {
+      max-width: 428px;
+    }
+  }
+
+  /* -----------TEAM----------- */
+
+  .team.section {
+    padding-bottom: 128px;
+  }
+
+  .team > .container {
+    width: 294px;
+  }
+
+  /* -----------PORTFOLIO----------- */
+
+.portfolio > .container {
+  max-width: 428px;
+}
+
+  /* -----------MODAL WINDOW----------- */
+
+  .modal {
+    width: 392px;
+    max-height: 586px;
+  }
+}
