@@ -1103,3 +1103,26 @@ body {
   background-color: var(--hover-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+/*======== SCROLL-UP ========*/
+.button-scroll {
+  position: sticky;
+  right: 30px;
+  bottom: 30px;
+  left: 90%;
+  border: none;
+  fill: var(--btn-background-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-scroll__icon {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  stroke-width: 0;
+}
+
+.scroll-hidden {
+  display: none;
+}

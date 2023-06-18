@@ -174,4 +174,11 @@
   .portfolio-list > .item {
     flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3);
   }
+
+  /* -----------SCROLL-UP----------- */
+
+  .button-scroll__icon {
+    height: 40px;
+    width: 40px;
+  }
 }

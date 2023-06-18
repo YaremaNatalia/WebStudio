@@ -193,9 +193,9 @@
 
   /* -----------PORTFOLIO----------- */
 
-.portfolio > .container {
-  max-width: 768px;
-}
+  .portfolio > .container {
+    max-width: 768px;
+  }
 
   .portfolio {
     padding-top: 64px;
@@ -225,5 +225,12 @@
 
   .portfolio-list > .item {
     flex-basis: calc((100% - var(--card-set-gap)) / 2);
+  }
+
+  /* -----------SCROLL-UP----------- */
+
+  .button-scroll__icon {
+    height: 35px;
+    width: 35px;
   }
 }
